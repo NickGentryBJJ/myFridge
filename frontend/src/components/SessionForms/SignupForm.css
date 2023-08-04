@@ -1,0 +1,93 @@
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9%;
+}
+
+.session-form {
+    align-self: flex-start;
+    margin-top: 6%;
+    font-family: 'Itim', cursive;
+    padding: 10px;
+}
+
+form span {
+    color: #FF7F50;
+    font-family: 'Itim', cursive;
+    font-size: 1.5rem;
+}
+
+#signup-title-text {
+    color: #87CEEB;
+    margin-bottom: 30px;
+    font-size: 4rem;
+    font-style: bold;
+    -webkit-text-stroke: 0.12rem #6495ED;
+    max-width: 300px;
+}
+
+p {
+    color: #00ac84;
+    max-width: 200px;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-family: 'Itim', cursive;
+    font-size: 1.5rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+form input::placeholder {
+    color: lightgray;
+}
+
+.signup-fridge-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: auto;
+}
+
+.signup-fridge-img-container img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.session-form input[type="submit"] {
+    background-color: #87CEEB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    font-family: 'Itim', cursive;
+    margin-top: 20px;
+}
+
+.session-form input[type="submit"]:hover {
+    background-color: #6495ED;
+}
+
+.chef-img-container {
+    width: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.chef-img-container img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}

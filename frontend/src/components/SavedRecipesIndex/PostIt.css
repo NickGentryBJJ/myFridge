@@ -1,0 +1,19 @@
+.note {
+    margin: 15px;
+    border: 2px solid #ffd700;
+    background-color: #fffacd; 
+    padding: 10px; 
+    width: 200px; 
+    height: 150px; 
+    font-family: Arial, sans-serif; 
+    font-size: 14px; 
+    line-height: 1.5; 
+    resize: none;
+    font-family: 'Homemade Apple', cursive;
+    color: rgb(107, 107, 107);
+}
+
+.note:focus {
+    outline: none; 
+    box-shadow: 0 0 10px #ffd700; 
+}

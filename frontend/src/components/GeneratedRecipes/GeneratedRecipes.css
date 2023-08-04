@@ -1,0 +1,73 @@
+.genrec-index-container {
+    padding: 20px;
+}
+
+#genrec-title {
+    color:#00ac84;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.genrec-index-container h1 {
+    margin-bottom: 10px;
+}
+
+.genrec-index-container button {
+    display: inline-block;
+    padding: 4px 10px;
+    background-color: #FF7F50;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Itim', cursive;
+    color: white;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #fa5e25;
+}
+
+.genrec-index-container button:hover {
+    background-color: #fa5e25;
+}
+
+.genrec-index-container button:focus {
+    outline: none;
+}
+
+#saved-button {
+    display: inline-block;
+    padding: 4px 10px;
+    background-color: grey;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Itim', cursive;
+    color: white;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid grey;
+}
+
+.genrec-ul {
+    margin-bottom: 5px;
+    color:#00ac84;
+    text-align: center;
+}
+
+#loading-text {
+    font-size: 3rem;
+    padding: 10%;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 0.1rem #6495ED;
+}
+
+#loading-image {
+    width: 200px; 
+    height: auto;
+    margin-left: 100px;
+    margin-right: auto; 
+}

@@ -1,0 +1,77 @@
+
+.about-me-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#teamtext {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #87CEEB;
+    -webkit-text-stroke: 1px #6495ED;
+    text-decoration: none;
+}
+
+.team-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 20px solid #dafaef;
+    background-color: #dafaef;
+}
+
+.team-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.team-links {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 20px;
+}
+
+.about-item {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #dafaef;
+    border-radius: 10px;
+    background-color: #dafaef;
+}
+
+.text-box {
+    text-align: center;
+}
+
+.text-box h3 {
+    font-size: 1.2rem;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.linkedin-icon {
+    margin-left: 5px;
+    font-size: 2rem;
+    transition: color 0.1s ease-in-out;
+    z-index: 9000;
+}
+
+.linkedin-icon:hover {
+    color: #0077B5; /* Change the color on hover to the desired color */
+}

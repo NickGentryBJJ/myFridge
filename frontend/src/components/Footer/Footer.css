@@ -1,0 +1,32 @@
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 5px; */
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.footer-text {
+    margin-right: 10px; 
+    cursor: default;
+}
+
+.icon-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.github-icon {
+    margin-left: 5px;
+    font-size: 2rem;
+    transition: color 0.1s ease-in-out;
+    z-index: 9000;
+}
+
+.github-icon:hover {
+    color: #00ac84; /* Change the color on hover to the desired color */
+}

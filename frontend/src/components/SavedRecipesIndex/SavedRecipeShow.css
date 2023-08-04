@@ -1,0 +1,22 @@
+
+.saved-recipe-show {
+    color: #000000; /* Set the default color to black */
+}
+
+.saved-recipe-show h2 {
+    color: #00ac84;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.saved-recipe-show h3 {
+    color: #FF7F50;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* .saved-recipe-show ul,
+.saved-recipe-show ol {
+    color: #0000FF;
+} */

@@ -1,0 +1,60 @@
+.saved-recipes-container {
+    background-image: url("./Images/cookbook.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    max-width: 1500px;
+    width: 100%;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3rem;
+    line-height: 1.2;
+}
+
+.recipe-index {
+    width: 50%;
+    position: absolute; 
+    top: 50%; 
+    left: 19.5%; 
+    width: 30%;
+    transform: translateY(-50%); 
+    max-width: 240px; 
+    max-height: 410px;
+    /* background-color: rgba(255, 255, 111, 0.491); */
+    border-radius: 20px;
+    overflow: auto;
+    padding: 15px;
+}
+
+
+.recipe-show {
+    width: 50%;
+    position: absolute; 
+    top: 50%; 
+    right: 15%; 
+    width: 30%;
+    transform: translateY(-50%); 
+    max-width: 400px; 
+    max-height: 410px;
+    /* background-color: rgba(255, 255, 111, 0.491); */
+    border-radius: 20px;
+    overflow: auto;
+    padding: 15px;
+}
+
+.recipe-index p,
+.recipe-show p {
+    white-space: normal; 
+}
+
+#my-saved-recipes-text {
+    color: #00ac84;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.6rem;
+}

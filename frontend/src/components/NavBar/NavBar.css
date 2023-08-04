@@ -1,0 +1,108 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 4rem;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 500;
+    padding-bottom: 60px;
+    background-color: #dafaef;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+#myfridge-text {
+    color: #87CEEB;
+    -webkit-text-stroke: 1px #6495ED;
+    margin-left: 5%;
+    margin-top: 13%;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.links-nav, .links-auth {
+    margin-top: 70px;
+    display: flex;
+    gap: 5px;
+    right: auto;
+    top: auto;
+    font-size: 1.2rem;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #87CEEB;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Itim', cursive;
+    color: white;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #6495ED
+}
+
+.nav-button:hover {
+    background-color: #6495ED;
+}
+
+.nav-button:focus {
+    outline: none;
+}
+
+.links-nav a,
+.links-auth a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #87CEEB;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.links-nav a:hover,
+.links-auth a:hover {
+    background-color: #6495ED;
+}
+
+.chef-icon {
+    height: 45px;
+    width: auto; 
+    margin-left: 10px; 
+    margin-top: 60px;
+}
+
+#tagline-nav {
+    margin-top: 14%;
+    margin-left: 3%;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    max-width: 20%;
+    color: #00ac84;
+}

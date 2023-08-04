@@ -1,0 +1,45 @@
+.saved-recipe-index-item {
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 5px;
+    background-color: #87CEEB;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Itim', cursive;
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #6495ED
+}
+
+.saved-recipe-index-item:hover {
+    background-color: #6495ED;
+}
+
+.saved-recipe-index-item h2 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#delete-rec-button {
+    display: inline-block;
+    padding: 4px 10px;
+    background-color: #FF7F50;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Itim', cursive;
+    color: white;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #fa5e25;
+    margin-top: 5px;
+}
+
+.item-wrapper {
+    display: flex;
+    align-items: center;
+}
